@@ -38,8 +38,6 @@ def Leijnse():
 
 fig, ax = plt.subplots()
 
-#xr = read_cmlh5_file_to_xarray("filename") cteni dat - samotna funkce
-
 cmls = xr.open_dataset(pycml.io.examples.get_example_data_path() + '/example_cml_data.nc') #cteni dat
 radar_along_cml = xr.open_dataset(pycml.io.examples.get_example_data_path() + '/example_path_averaged_reference_data.nc')
 
