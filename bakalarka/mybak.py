@@ -75,7 +75,3 @@ interpolator1 = pycml.spatial.interpolator.IdwKdtreeInterpolator( #interpoluje h
     exclude_nan=True, 
     max_distance=0.3,
 )
-
-interpolator2 = pycml.spatial.interpolator.OrdinaryKrigingInterpolator #druhy zpusob interpolovani
-
-
